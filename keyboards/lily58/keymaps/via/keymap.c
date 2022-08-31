@@ -202,7 +202,7 @@ bool oled_task_user(void) {
         oled_write_ln_P(PSTR("Lower"), false);
         break;
     case _ADJUST:
-        oled_write_ln_P(PSTR("Adjust"), false);
+        oled_write_ln_P(PSTR("Adjst"), false);
         break;
     default:
         oled_write_ln_P(PSTR("Undefined"), false);
