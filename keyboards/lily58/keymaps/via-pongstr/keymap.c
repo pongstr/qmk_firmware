@@ -377,8 +377,8 @@ static void print_logo_narrow(void) {
 
 static void print_status_narrow(void) {
     /* Print current mode */
-    oled_set_cursor(0, 0);
-    oled_write_raw_P(mac_logo, sizeof(mac_logo));
+    // oled_set_cursor(0, 0);
+    // oled_write_raw_P(mac_logo, sizeof(mac_logo));
 
 
     oled_set_cursor(0, 3);
