@@ -21,10 +21,7 @@ MAGIC_ENABLE = yes
 ## ~400 Bytes by enabling this option.
 AVR_USE_MINIMAL_PRINTF = yes
 
+
 OLED_ENABLE = yes
-# OLED_DRIVER = SSD1306
-
-
-# ENCODER_ENABLE = yes
 WPM_ENABLE = yes
 VIA_ENABLE = yes
